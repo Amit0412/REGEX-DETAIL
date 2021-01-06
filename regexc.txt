@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keyword" content="REGEX detailed">
+    <title>REGEX</title>
+</head>
+<body>
+    <script>
+        let m=/SAMPLE/
+        let str="THIS IS JUSTA SAMPLE REGEX FILE";
+        //FIRST FUNCTION
+        let a=m.exec(str)
+        console.log(a);
+        //SECOND FUNCTION
+        let b=m.test(str)
+        console.log(b)
+        //THIRD FUCNTION
+        let c=str.match(m)
+        console.log(c)
+        let d=str.search(m)
+        console.log(d)
+        
+        </script>
+</body>
+</html>
