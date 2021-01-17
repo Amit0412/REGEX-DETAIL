@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Making lapdev</title>
+    <style>
+        h1
+        {
+            font-size: 40px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            color: rgba(10, 20, 225, 0.85);
+            margin-top: 120px;
+            margin-left: 630px;
+            border: 3px solid black;
+            width: 7%;
+            padding: 35px 35px 35px 45px;
+            border-top-left-radius: 10%;
+            border-top-right-radius: 10%;
+            border-top-width: 5px;
+            border-left-width: 2px;
+            border-right-width: 2px;
+            background-color: rgba(200,10,45,0.55);
+            
+        }
+        #a
+        {
+            border-top: 3px solid black;
+            border-left: 3px solid black;
+            border-right: 3px solid black;
+            border-bottom: 7px solid black;
+            border-bottom-left-radius: 5%;
+            border-bottom-right-radius: 5%;
+            width: 12.15%;
+            height: 80px;
+            margin-left: 656px;
+            margin-top: -27px;
+            background-color: gray;
+            transform:skew(30deg);
+            position: relative;
+            z-index: 2;
+            
+        }
+        #v
+        {
+            border: 1px solid black;
+            width: 60%;
+            background-color: black;
+            height: 30px;
+            margin-left: 34px;
+            margin-top: 20px;
+            position: relative;
+        }
+        #b
+        {
+            border: 2px solid black;
+            width: 10%;
+            border-radius: 120%;
+            margin-left: 20px;
+            height: 10px;
+            margin-top: 5px;
+            background-color:white;
+            position:absolute
+        }
+        #y
+        {
+            border: 2px solid black;
+            width: 10%;
+            border-radius: 120%;
+            margin-left: 40px;
+            height: 10px;
+            margin-top: 5px;
+            background-color:white;
+            position:absolute
+        }
+        #k
+        {
+            border: 2px solid black;
+            width: 10%;
+            border-radius: 120%;
+            margin-left:60px;
+            height: 10px;
+            margin-top: 5px;
+            background-color:white;
+            position:absolute
+        }
+        #o
+        {
+            border: 2px solid black;
+            width: 10%;
+            border-radius: 120%;
+            margin-left: 80px;
+            height: 10px;
+            margin-top: 5px;
+            background-color:white;
+            position:absolute
+        }
+        #q
+        {
+            border: 1px solid black;
+            width: 30%;
+            height: 20px;
+            margin-left: 40px;
+            background-color:indigo;
+            margin-top: 35px;
+            
+        }
+        #fg
+        {
+            margin-left: 850px;
+            margin-top: -65px;
+            transform: skew(30deg);
+            position: absolute;
+            z-index: 1;
+            background-color: white;
+        }
+        
+    </style>
+</head>
+<body>
+    <div id="ea">
+    <h1>DEV</h1>
+    <div id="a">
+        <div id="v">
+            <div id="b"></div>
+            <div id="y"></div>
+            <div id="k"></div>
+            <div id="o"></div>
+            <div id="q"></div>
+        </div>
+    </div>
+    <div id="fg">
+        <img src="https://www.kindpng.com/picc/m/93-937219_big-image-png-white-drawing-computer-mouse-clip.png" height="60px" width="50px">
+    </div>
+    </div>
+</body>
+</html>
